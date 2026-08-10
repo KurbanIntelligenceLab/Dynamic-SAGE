@@ -1,5 +1,7 @@
 # Dynamic-SAGE
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.01469-b31b1b.svg)](https://arxiv.org/abs/2607.01469)
+
 Dynamic-SAGE is an agentic **video question-answering** system that can **synthesize its own tools**. On top of a fixed set of atomic capabilities — frame extraction, speech transcription, visual reasoning, temporal grounding, and web search — it automatically proposes, implements, validates, and installs higher-level *composite* tools that chain those primitives together.
 
 This repository accompanies the paper *A Cost-Aware, Paired Protocol for Auditing Dynamic Tool Synthesis in Agentic Video Question Answering*, and provides the full pipeline for generating, validating, and evaluating dynamically synthesized tools.
@@ -177,6 +179,22 @@ The synthesized tools are built from these primitives (see [src/functions/tools/
   ```
 
 ---
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@misc{mohamed2026costawarepairedprotocolauditing,
+      title={A Cost-Aware, Paired Protocol for Auditing Dynamic Tool Synthesis in Agentic Video Question Answering}, 
+      author={Aseel Mohamed and Rama AlHamidi and Mohamed Rayan Barhdadi and Rasul Khanbayov and Erchin Serpedin and Hasan Kurban},
+      year={2026},
+      eprint={2607.01469},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.01469}, 
+}
+```
 
 ## License
 
